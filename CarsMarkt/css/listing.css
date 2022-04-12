@@ -1,0 +1,175 @@
+/* LISTING CSS */
+
+#listing-container {
+    margin: 80px 0;
+}
+
+.listing-section {
+    margin-top: 30px;
+}
+
+.listing-section.left {
+    float: left;
+    width: calc(100% - 300px - 100px);
+}
+
+.listing-section.right {
+    float: right;
+    width: 300px;
+    border: 1px solid #bfbfbf;
+    background-color: #f2f2f2;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.listing-section.right h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 15px 0 20px;
+}
+
+.listing-section.right p {
+    margin: 0 15px 10px;
+}
+
+.listing-section.right p:last-of-type {
+    margin-bottom: 15px;
+}
+
+.listing-section.right p span {
+    font-weight: 600;
+}
+.listing-section.right input[type="submit"] {
+    font-size: 20px;
+    padding: 16px 80px;
+    height: auto;
+    border: none;
+    border-radius: 32px;
+        -webkit-border-radius: 32px;
+        -moz-border-radius: 32px;
+    background-color: #d2674e;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin: 15px 0 20px;
+    position:absolute;
+}
+
+/* LISTING IMAGES CSS */
+
+#listing-images-wrapper {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-color: #283657;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-top-left-radius: 3px;
+    -moz-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#listing-images-lane {
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #000;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#listing-images-lane .image-thumbnail {
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#listing-images-lane .image-thumbnail.selected {
+    border-bottom: 3px solid #F26101;
+}
+
+/* LISTING INFO CSS */
+
+.listing-info-wrapper {
+    border-top: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.listing-info-wrapper h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.listing-info-wrapper ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    columns: 2;
+}
+
+.listing-info-wrapper ul li {
+    margin-bottom: 10px;
+}
+
+.listing-info-wrapper ul li span {
+    font-weight: 600;
+}
+
+/* TITLE INFO CSS */
+
+#title-info-wrapper {
+    border-top: none;
+}
+
+#title-info-wrapper #listing-price {
+    font-size: 28px;
+    font-weight: 700;
+    color: #F26101;
+    margin: 0;
+}
+
+#title-info-wrapper h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 5px 0 0;
+}
+
+
+#title-info-wrapper #listing-km {
+    font-size: 18px;
+    margin: 5px 0 0;
+}
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 1200px) {
+    .listing-section.left, .listing-section.right {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+}

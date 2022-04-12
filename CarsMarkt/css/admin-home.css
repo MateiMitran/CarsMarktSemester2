@@ -1,0 +1,295 @@
+.firstSpan {
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+    color: #F26101;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+}
+#top-nav-admin-sign-out-button {
+    outline: none;
+    font-size: 16px;
+    padding: 6px 10.65px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #AAD2DE;
+    cursor: pointer;
+}
+#top-nav-admin-sign-out-button:hover {
+    background-color: #AAD2DE;
+}
+/* DASHBOARD CSS */
+
+#dashboard-wrapper {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+#dashboard-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+    box-shadow: 0px 0px 42px -33px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 0px 42px -33px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 42px -33px rgba(0,0,0,0.75);
+    overflow-y: scroll;
+    text-align: left; 
+}
+
+.dashboard-content {
+    display: none;
+    width: auto;
+}
+
+.dashboard-content.visible {
+    display: block;
+    width: auto;
+}
+
+.dashboard-content form h3 {
+    font-weight: 600;
+    color: #2b2d42;
+    font-size: 24px;
+    margin: 0 0 15px;
+}
+
+.dashboard-button:link {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+    min-width: 150px;
+    text-align: center;
+}
+
+.dashboard-button:visited {
+    color: #fff;
+}
+
+#dashboard-button-announcements {
+    background-color: #759675;
+}
+
+#dashboard-button-announcements:hover {
+    background-color: #698769;
+}
+
+#dashboard-button-listings {
+    background-color: #c87323;
+}
+
+#dashboard-button-listings:hover {
+    background-color: #77491e;
+}
+
+#dashboard-button-users {
+    background-color: #5449f1;
+}
+
+#dashboard-button-users:hover {
+    background-color: #222788;
+}
+#dashboard-button-post-announcements {
+    background-color: #e05050;
+}
+
+#dashboard-button-post-announcements:hover {
+    background-color: #3b1515;
+}
+/* ANNOUNCEMENTS CSS */
+
+#dashboard-announcements {
+    margin-top: -16px;
+}
+
+#dashboard-announcements ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#dashboard-announcements ul li{
+    padding: 15px 20px;
+    border-top: 1px solid #eee;
+    width: auto;
+}
+
+.button-announcement {
+    background-color: #ff0000; 
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+    margin-top: -10px;
+    margin-left: 20px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    text-align: center;
+    position: fixed;
+    left: 1700px;
+}
+#dashboard-announcements ul li:first-of-type {
+    border-top: none;
+    width: auto;
+}
+
+#dashboard-announcements ul li:nth-of-type(1n) {
+    background-color: #f3f3f3;
+    width: auto;
+}
+
+#dashboard-announcements ul li:nth-of-type(2n) {
+    background-color: #fff;
+    width: auto;
+}
+
+
+/* Listings CSS */
+
+#dashboard-listings {
+    margin-top: -16px;
+}
+
+#dashboard-listings ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#dashboard-listings ul li{
+    padding: 15px 20px;
+    border-top: 1px solid #eee;
+}
+
+#dashboard-listings ul li:first-of-type {
+    border-top: none;
+}
+
+#dashboard-listings ul li:nth-of-type(1n) {
+    background-color: #f3f3f3;
+}
+
+#dashboard-listings ul li:nth-of-type(2n) {
+    background-color: #fff;
+}
+
+/* Users CSS */
+
+.button-create-admin {
+    display: inline-block;
+    border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+    background-color:lightseagreen;
+    transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    top: 60%;
+    right: 34%;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+}
+#dashboard-users {
+    margin-top: -16px;
+}
+#dashboard-users ul li {
+    padding: 15px 20px;
+    border-top: 1px solid #eee;
+}
+#dashboard-users ul li:first-of-type {
+    border-top: none;
+}
+
+#dashboard-users ul li:nth-of-type(1n) {
+    background-color: #f3f3f3;
+}
+
+#dashboard-users ul li:nth-of-type(2n) {
+    background-color: #fff;
+}
+#dashboard-users ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.button-users {
+    background-color: #ff0000; 
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+    margin-top: -10px;
+    margin-left: 20px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    text-align: center;
+    position: absolute;
+    left: 1700px;
+  }
+
+/* Post Announcements */
+.dashboard-post-announcements-button {
+    background-color:darkgray;
+    display: inline-block;
+    width: 200px; 
+    left: 45%; 
+    position: absolute;
+    padding: 10px 30px;
+    height: 10px;
+    line-height: 1px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    display: grid;  
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+.dashboard-post-announcements-button:hover {
+    background-color:gainsboro;
+}
+.textarea-style {
+    resize: none;
+    text-align: left;
+    padding-left:0;
+    padding-top:0;
+    padding-bottom:0.4em;
+    padding-right: 0.4em;
+    width: 950px;
+    height: 200px;
+    font-size: 18px;
+}

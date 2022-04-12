@@ -1,0 +1,13 @@
+ADMIN LOGIN DETAILS :
+User : kalina.petrova@fontys.nl
+Pass : 123
+
+User : andre@mail.com
+Pass : 123
+USER LOGIN DETAILS : 
+
+matei.mitran@mail.com
+Pass : 123
+
+jason@mail.com
+Pass : 123

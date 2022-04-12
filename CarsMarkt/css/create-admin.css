@@ -1,0 +1,38 @@
+#top-nav-admin-sign-out-button {
+    outline: none;
+    font-size: 16px;
+    padding: 6px 10.65px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #AAD2DE;
+    cursor: pointer;
+}
+#top-nav-admin-sign-out-button:hover {
+    background-color: #AAD2DE;
+}
+.simple-form .form-group input[type="submitc"] {
+    width: 30%;
+    font-size: 18px;
+    padding: 16px 32px;
+    height: auto;
+    border: none;
+    border-radius: 32px;
+        -webkit-border-radius: 32px;
+        -moz-border-radius: 32px;
+    background-color: #d2674e;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+    letter-spacing: 1.2px;
+    text-align:center;
+}
+
+.simple-form .form-group input[type="submitc"]:hover {
+    background-color: #c74f33;
+}
+.simple-form .form-group input:focus {
+    border: 1px solid #bcc3da;
+}

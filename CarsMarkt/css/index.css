@@ -1,0 +1,119 @@
+/* JUMBOTRON CSS */
+
+#jumbotron {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    min-height: 450px;
+    max-height: 580px;
+    background-color: #AAD2DE;
+    background-image: url('../images/index/jumbotron-image.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#jumbotron-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40, 54, 87, 0.7);
+}
+
+#jumbotron-moto-container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#jumbotron-moto-container h1, #jumbotron-moto-container h3 {
+    color: #fff;
+    margin: 0;
+}
+
+#jumbotron-moto-container h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#jumbotron-moto-container h1 span {
+    color: #F26101;
+}
+
+#jumbotron-moto-container h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+#jumbotron-moto-container h3 span {
+    color: #F26101;
+    font-weight: 600;
+}
+
+#jumbotron-moto-container a:link, #jumbotron-moto-container a:visited {
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+    color: #F26101;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+}
+
+#jumbotron-moto-container a:hover {
+    color: #fff;
+    background-color: #F26101;
+}
+
+/* RECENT LISTINGS CSS */
+
+#recent-listings-container h2 {
+    color: #1F282E;
+}
+
+#recent-listings-container h2 span {
+    color: #F26101;
+}
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 1340px) {
+    #jumbotron-moto-container {
+        width: -webkit-calc(100vw - 60px);
+        width: -moz-calc(100vw - 60px);
+        width: calc(100vw - 60px);
+    }
+}
+
+@media all and (max-width: 600px) {
+    #jumbotron-moto-container h1 {
+        font-size: 70px;
+    }
+    #jumbotron-moto-container h3 {
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    #jumbotron-moto-container h1 {
+        font-size: 50px;
+    }
+
+    #jumbotron-moto-container h3 {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 380px) {
+    #jumbotron-moto-container h1 {
+        font-size: 40px;
+    }
+}

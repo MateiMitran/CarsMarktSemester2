@@ -1,0 +1,19 @@
+/* MEDIA QUERIES */
+
+@media all and (max-width: 1340px) {
+    form {
+        width: -webkit-calc(100% - 60px);
+        width: -moz-calc(100% - 60px);
+        width: calc(100% - 60px);
+        margin: 0 auto;
+    }
+}
+#top-nav {
+    width: 100%;
+    padding: 20px 60px;
+    background-color: #283657;
+    color: #fff;
+    box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+}
